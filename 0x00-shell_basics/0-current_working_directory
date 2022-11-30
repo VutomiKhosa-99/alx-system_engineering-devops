@@ -1,2 +1,2 @@
 #!/bin/bash
-pwd -P
+/usr/bin/find "$PWD" -maxdepth 1 -mindepth 1 -name "$1"
